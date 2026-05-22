@@ -1,0 +1,30 @@
+[2026-05-16 13:49:08] INFO xai_guided: Device: cuda; out_dir: runs\S5_swin_tiny_xai_b1
+[2026-05-16 13:49:09] INFO xai_guided: Masks: cam_size=7; train shape=(28709, 7, 7); blur_sigma=1.2
+[2026-05-16 13:49:09] INFO xai_guided: Mask source: landmark | nonzero ratio: 1.000
+[2026-05-16 13:49:11] INFO xai_guided: Loading init weights from runs/swin_tiny_baseline/best.pt
+[2026-05-16 13:49:11] INFO xai_guided: Model: swin_tiny_patch4_window7_224 | params: 27.52M total / 27.52M trainable | target_layer: SwinTransformerBlock (override=auto) | channels_last_2d: True
+[2026-05-16 13:54:24] INFO xai_guided: epoch 001/18 | ce 0.4197 | attn 0.0000 (on=False) | del 0.0000 | val_acc 70.10% | val_f1 67.56% | lr 5.00e-05 | 313.0s
+[2026-05-16 13:54:25] INFO xai_guided:   >> new best macro-F1 67.56%
+[2026-05-16 13:59:37] INFO xai_guided: epoch 002/18 | ce 0.4352 | attn 0.0000 (on=False) | del 0.0000 | val_acc 69.38% | val_f1 67.20% | lr 4.96e-05 | 312.3s
+[2026-05-16 14:04:52] INFO xai_guided: epoch 003/18 | ce 0.4288 | attn 0.0000 (on=False) | del 0.0000 | val_acc 70.88% | val_f1 68.86% | lr 4.83e-05 | 315.6s
+[2026-05-16 14:04:53] INFO xai_guided:   >> new best macro-F1 68.86%
+[2026-05-16 14:10:09] INFO xai_guided: epoch 004/18 | ce 0.4324 | attn 0.0000 (on=False) | del 0.0000 | val_acc 70.19% | val_f1 68.67% | lr 4.63e-05 | 316.8s
+[2026-05-16 14:15:28] INFO xai_guided: epoch 005/18 | ce 0.4259 | attn 0.0000 (on=False) | del 0.0000 | val_acc 71.27% | val_f1 68.73% | lr 4.35e-05 | 318.5s
+[2026-05-16 14:20:37] INFO xai_guided: epoch 006/18 | ce 0.4250 | attn 0.1682 (on=True) | del 0.0000 | val_acc 71.38% | val_f1 68.99% | lr 4.01e-05 | 308.6s
+[2026-05-16 14:20:37] INFO xai_guided:   >> new best macro-F1 68.99%
+[2026-05-16 14:25:44] INFO xai_guided: epoch 007/18 | ce 0.4184 | attn 0.1136 (on=True) | del 0.0000 | val_acc 71.22% | val_f1 69.11% | lr 3.61e-05 | 307.2s
+[2026-05-16 14:25:44] INFO xai_guided:   >> new best macro-F1 69.11%
+[2026-05-16 14:30:51] INFO xai_guided: epoch 008/18 | ce 0.4155 | attn 0.0929 (on=True) | del 0.0000 | val_acc 70.80% | val_f1 68.41% | lr 3.18e-05 | 306.6s
+[2026-05-16 14:36:08] INFO xai_guided: epoch 009/18 | ce 0.4136 | attn 0.0788 (on=True) | del 0.0000 | val_acc 71.30% | val_f1 69.29% | lr 2.73e-05 | 317.4s
+[2026-05-16 14:36:08] INFO xai_guided:   >> new best macro-F1 69.29%
+[2026-05-16 14:41:42] INFO xai_guided: epoch 010/18 | ce 0.4065 | attn 0.0672 (on=True) | del 0.0000 | val_acc 71.19% | val_f1 69.06% | lr 2.27e-05 | 334.3s
+[2026-05-16 14:47:17] INFO xai_guided: epoch 011/18 | ce 0.4008 | attn 0.0600 (on=True) | del 0.0000 | val_acc 71.30% | val_f1 68.66% | lr 1.82e-05 | 334.5s
+[2026-05-16 14:52:53] INFO xai_guided: epoch 012/18 | ce 0.4076 | attn 0.0547 (on=True) | del 0.0000 | val_acc 72.33% | val_f1 69.27% | lr 1.39e-05 | 336.2s
+[2026-05-16 14:58:29] INFO xai_guided: epoch 013/18 | ce 0.3939 | attn 0.0508 (on=True) | del 0.0000 | val_acc 71.97% | val_f1 69.08% | lr 9.93e-06 | 336.1s
+[2026-05-16 15:03:50] INFO xai_guided: epoch 014/18 | ce 0.3903 | attn 0.0484 (on=True) | del 0.0000 | val_acc 72.19% | val_f1 69.74% | lr 6.52e-06 | 321.2s
+[2026-05-16 15:03:50] INFO xai_guided:   >> new best macro-F1 69.74%
+[2026-05-16 15:09:04] INFO xai_guided: epoch 015/18 | ce 0.3931 | attn 0.0467 (on=True) | del 0.0000 | val_acc 72.14% | val_f1 69.01% | lr 3.74e-06 | 313.9s
+[2026-05-16 15:14:19] INFO xai_guided: epoch 016/18 | ce 0.3914 | attn 0.0458 (on=True) | del 0.0000 | val_acc 72.33% | val_f1 69.48% | lr 1.69e-06 | 314.7s
+[2026-05-16 15:19:34] INFO xai_guided: epoch 017/18 | ce 0.3887 | attn 0.0452 (on=True) | del 0.0000 | val_acc 72.28% | val_f1 69.45% | lr 4.26e-07 | 314.4s
+[2026-05-16 15:24:48] INFO xai_guided: epoch 018/18 | ce 0.3915 | attn 0.0454 (on=True) | del 0.0000 | val_acc 72.33% | val_f1 69.30% | lr 0.00e+00 | 314.3s
+[2026-05-16 15:25:14] INFO xai_guided: BEST epoch 14 | TEST acc 73.45% | macro-F1 71.64%

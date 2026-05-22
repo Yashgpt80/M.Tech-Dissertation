@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{Test classification scores for every trained run.}
+\label{tab:cls}
+\begin{tabular}{llrrrr}
+\toprule
+run & model & test acc & macro-F1 & best ep. & epochs \\
+\midrule
+resnet50_baseline & resnet50 & 69.5500 & 66.3200 & 37.0000 & 40.0000 \\
+S4_resnet50_xai & resnet50 & 69.9400 & 67.5100 & 11.0000 & 17.0000 \\
+swin_tiny_baseline & swin_tiny_patch4_window7_224 & 72.2800 & 70.3700 & 23.0000 & 30.0000 \\
+S4_swin_tiny_xai & swin_tiny_patch4_window7_224 & 71.7200 & 70.9600 & 10.0000 & 16.0000 \\
+S5_swin_tiny_xai_b1 & swin_tiny_patch4_window7_224 & 73.4500 & 71.6400 & 14.0000 & 18.0000 \\
+S5_swin_tiny_xai_b2 & swin_tiny_patch4_window7_224 & 73.4500 & 70.9700 & 14.0000 & 18.0000 \\
+S5_swin_tiny_xai_b3 & swin_tiny_patch4_window7_224 & 72.4200 & 70.6800 & 6.0000 & 12.0000 \\
+\bottomrule
+\end{tabular}
+\end{table}

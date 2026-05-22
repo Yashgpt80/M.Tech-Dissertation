@@ -1,0 +1,36 @@
+run_name: S1_resnet50_lam0.5
+seed: 0
+csv_path: fer2013.csv
+cache_dir: runs/_cache
+out_dir: runs
+model:
+  name: resnet50
+  in_channels: 3
+  image_size: 224
+  pretrained: true
+data:
+  batch_size: 48
+  num_workers: 4
+  use_sampler: true
+train:
+  epochs: 18
+  optimizer: adamw
+  lr: 0.0003
+  weight_decay: 0.0001
+  scheduler: cosine
+  warmup_epochs: 2
+  label_smoothing: 0.1
+  use_class_weights: true
+  grad_clip: 1.0
+  amp: true
+  early_stop_patience: 6
+  eval_every: 1
+  init_from: null
+  warmup_xai_epochs: 2
+  lambda_attn: 0.5
+  attn_loss: cosine
+  cam_method: gradcam
+  mask_source: landmark
+masks:
+  npz_path: runs/masks.npz
+  cam_size: 14

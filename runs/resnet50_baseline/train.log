@@ -1,0 +1,60 @@
+[2026-05-14 22:33:33] INFO baseline: Device: cuda; out_dir: runs\resnet50_baseline
+[2026-05-14 22:33:33] INFO baseline: Train batches: 448 | Val: 57 | Test: 57
+[2026-05-14 22:33:43] INFO baseline: Model: resnet50 | params: 23.52M
+[2026-05-14 22:36:05] INFO baseline: epoch 001/40 | tr_loss 1.4540 | val_loss 2.3096 | val_acc 6.80% | val_f1 7.68% | lr 1.50e-04 | 142.3s
+[2026-05-14 22:36:05] INFO baseline:   >> new best macro-F1 7.68% (saved best.pt)
+[2026-05-14 22:37:53] INFO baseline: epoch 002/40 | tr_loss 0.9362 | val_loss 1.6143 | val_acc 42.52% | val_f1 38.59% | lr 3.00e-04 | 107.4s
+[2026-05-14 22:37:53] INFO baseline:   >> new best macro-F1 38.59% (saved best.pt)
+[2026-05-14 22:39:40] INFO baseline: epoch 003/40 | tr_loss 0.7589 | val_loss 1.3255 | val_acc 55.36% | val_f1 50.48% | lr 2.99e-04 | 107.2s
+[2026-05-14 22:39:40] INFO baseline:   >> new best macro-F1 50.48% (saved best.pt)
+[2026-05-14 22:41:28] INFO baseline: epoch 004/40 | tr_loss 0.6690 | val_loss 1.2225 | val_acc 59.26% | val_f1 54.78% | lr 2.98e-04 | 107.5s
+[2026-05-14 22:41:28] INFO baseline:   >> new best macro-F1 54.78% (saved best.pt)
+[2026-05-14 22:43:14] INFO baseline: epoch 005/40 | tr_loss 0.6227 | val_loss 1.1643 | val_acc 61.94% | val_f1 58.81% | lr 2.95e-04 | 106.4s
+[2026-05-14 22:43:14] INFO baseline:   >> new best macro-F1 58.81% (saved best.pt)
+[2026-05-14 22:45:00] INFO baseline: epoch 006/40 | tr_loss 0.5991 | val_loss 1.1450 | val_acc 62.58% | val_f1 61.12% | lr 2.92e-04 | 105.2s
+[2026-05-14 22:45:00] INFO baseline:   >> new best macro-F1 61.12% (saved best.pt)
+[2026-05-14 22:46:45] INFO baseline: epoch 007/40 | tr_loss 0.5790 | val_loss 1.1579 | val_acc 64.25% | val_f1 61.82% | lr 2.87e-04 | 104.8s
+[2026-05-14 22:46:45] INFO baseline:   >> new best macro-F1 61.82% (saved best.pt)
+[2026-05-14 22:48:30] INFO baseline: epoch 008/40 | tr_loss 0.5515 | val_loss 1.1050 | val_acc 65.81% | val_f1 64.39% | lr 2.82e-04 | 105.2s
+[2026-05-14 22:48:30] INFO baseline:   >> new best macro-F1 64.39% (saved best.pt)
+[2026-05-14 22:50:15] INFO baseline: epoch 009/40 | tr_loss 0.5331 | val_loss 1.1687 | val_acc 63.39% | val_f1 62.09% | lr 2.76e-04 | 105.0s
+[2026-05-14 22:52:00] INFO baseline: epoch 010/40 | tr_loss 0.5070 | val_loss 1.1566 | val_acc 65.51% | val_f1 63.70% | lr 2.68e-04 | 104.8s
+[2026-05-14 22:53:45] INFO baseline: epoch 011/40 | tr_loss 0.5015 | val_loss 1.1437 | val_acc 65.25% | val_f1 62.41% | lr 2.60e-04 | 104.8s
+[2026-05-14 22:55:30] INFO baseline: epoch 012/40 | tr_loss 0.4851 | val_loss 1.1619 | val_acc 65.59% | val_f1 64.08% | lr 2.52e-04 | 105.0s
+[2026-05-14 22:57:16] INFO baseline: epoch 013/40 | tr_loss 0.4698 | val_loss 1.1656 | val_acc 65.20% | val_f1 63.68% | lr 2.42e-04 | 106.0s
+[2026-05-14 22:59:02] INFO baseline: epoch 014/40 | tr_loss 0.4611 | val_loss 1.1480 | val_acc 66.37% | val_f1 64.19% | lr 2.32e-04 | 106.8s
+[2026-05-14 23:00:50] INFO baseline: epoch 015/40 | tr_loss 0.4419 | val_loss 1.1494 | val_acc 66.37% | val_f1 64.54% | lr 2.21e-04 | 107.6s
+[2026-05-14 23:00:50] INFO baseline:   >> new best macro-F1 64.54% (saved best.pt)
+[2026-05-14 23:02:35] INFO baseline: epoch 016/40 | tr_loss 0.4440 | val_loss 1.1721 | val_acc 66.31% | val_f1 64.51% | lr 2.10e-04 | 104.6s
+[2026-05-14 23:04:20] INFO baseline: epoch 017/40 | tr_loss 0.4298 | val_loss 1.1565 | val_acc 67.23% | val_f1 65.56% | lr 1.99e-04 | 105.3s
+[2026-05-14 23:04:20] INFO baseline:   >> new best macro-F1 65.56% (saved best.pt)
+[2026-05-14 23:06:05] INFO baseline: epoch 018/40 | tr_loss 0.4258 | val_loss 1.1956 | val_acc 66.06% | val_f1 64.79% | lr 1.87e-04 | 104.9s
+[2026-05-14 23:07:50] INFO baseline: epoch 019/40 | tr_loss 0.4188 | val_loss 1.1754 | val_acc 67.34% | val_f1 65.58% | lr 1.75e-04 | 104.9s
+[2026-05-14 23:07:50] INFO baseline:   >> new best macro-F1 65.58% (saved best.pt)
+[2026-05-14 23:09:35] INFO baseline: epoch 020/40 | tr_loss 0.4136 | val_loss 1.1808 | val_acc 67.12% | val_f1 65.78% | lr 1.62e-04 | 105.5s
+[2026-05-14 23:09:36] INFO baseline:   >> new best macro-F1 65.78% (saved best.pt)
+[2026-05-14 23:11:21] INFO baseline: epoch 021/40 | tr_loss 0.4091 | val_loss 1.1908 | val_acc 66.26% | val_f1 64.46% | lr 1.50e-04 | 105.3s
+[2026-05-14 23:13:06] INFO baseline: epoch 022/40 | tr_loss 0.3974 | val_loss 1.1720 | val_acc 67.79% | val_f1 65.83% | lr 1.38e-04 | 104.8s
+[2026-05-14 23:13:06] INFO baseline:   >> new best macro-F1 65.83% (saved best.pt)
+[2026-05-14 23:14:51] INFO baseline: epoch 023/40 | tr_loss 0.3998 | val_loss 1.1778 | val_acc 67.54% | val_f1 65.42% | lr 1.25e-04 | 104.6s
+[2026-05-14 23:16:38] INFO baseline: epoch 024/40 | tr_loss 0.3915 | val_loss 1.1973 | val_acc 67.37% | val_f1 65.51% | lr 1.13e-04 | 107.0s
+[2026-05-14 23:18:25] INFO baseline: epoch 025/40 | tr_loss 0.3862 | val_loss 1.1977 | val_acc 67.32% | val_f1 65.04% | lr 1.01e-04 | 107.1s
+[2026-05-14 23:20:12] INFO baseline: epoch 026/40 | tr_loss 0.3908 | val_loss 1.1907 | val_acc 67.79% | val_f1 65.26% | lr 8.97e-05 | 107.1s
+[2026-05-14 23:21:59] INFO baseline: epoch 027/40 | tr_loss 0.3839 | val_loss 1.1893 | val_acc 67.26% | val_f1 64.67% | lr 7.86e-05 | 107.1s
+[2026-05-14 23:23:46] INFO baseline: epoch 028/40 | tr_loss 0.3840 | val_loss 1.1838 | val_acc 68.04% | val_f1 65.91% | lr 6.80e-05 | 107.1s
+[2026-05-14 23:23:46] INFO baseline:   >> new best macro-F1 65.91% (saved best.pt)
+[2026-05-14 23:25:33] INFO baseline: epoch 029/40 | tr_loss 0.3853 | val_loss 1.1874 | val_acc 68.07% | val_f1 65.67% | lr 5.79e-05 | 106.5s
+[2026-05-14 23:27:20] INFO baseline: epoch 030/40 | tr_loss 0.3731 | val_loss 1.1949 | val_acc 67.90% | val_f1 65.51% | lr 4.84e-05 | 107.0s
+[2026-05-14 23:29:07] INFO baseline: epoch 031/40 | tr_loss 0.3747 | val_loss 1.1845 | val_acc 68.46% | val_f1 65.51% | lr 3.96e-05 | 107.0s
+[2026-05-14 23:30:54] INFO baseline: epoch 032/40 | tr_loss 0.3769 | val_loss 1.1899 | val_acc 67.76% | val_f1 65.15% | lr 3.16e-05 | 107.1s
+[2026-05-14 23:32:41] INFO baseline: epoch 033/40 | tr_loss 0.3791 | val_loss 1.1910 | val_acc 67.87% | val_f1 65.22% | lr 2.44e-05 | 107.0s
+[2026-05-14 23:34:28] INFO baseline: epoch 034/40 | tr_loss 0.3758 | val_loss 1.1888 | val_acc 68.10% | val_f1 65.61% | lr 1.81e-05 | 107.0s
+[2026-05-14 23:36:15] INFO baseline: epoch 035/40 | tr_loss 0.3728 | val_loss 1.1902 | val_acc 68.18% | val_f1 65.38% | lr 1.26e-05 | 107.0s
+[2026-05-14 23:38:02] INFO baseline: epoch 036/40 | tr_loss 0.3685 | val_loss 1.1800 | val_acc 68.54% | val_f1 65.96% | lr 8.13e-06 | 106.9s
+[2026-05-14 23:38:02] INFO baseline:   >> new best macro-F1 65.96% (saved best.pt)
+[2026-05-14 23:39:49] INFO baseline: epoch 037/40 | tr_loss 0.3708 | val_loss 1.1844 | val_acc 68.60% | val_f1 66.47% | lr 4.59e-06 | 107.0s
+[2026-05-14 23:39:49] INFO baseline:   >> new best macro-F1 66.47% (saved best.pt)
+[2026-05-14 23:41:36] INFO baseline: epoch 038/40 | tr_loss 0.3731 | val_loss 1.1922 | val_acc 68.54% | val_f1 66.07% | lr 2.05e-06 | 107.0s
+[2026-05-14 23:43:23] INFO baseline: epoch 039/40 | tr_loss 0.3771 | val_loss 1.1925 | val_acc 68.29% | val_f1 65.51% | lr 5.12e-07 | 107.1s
+[2026-05-14 23:45:10] INFO baseline: epoch 040/40 | tr_loss 0.3709 | val_loss 1.1872 | val_acc 68.40% | val_f1 65.87% | lr 0.00e+00 | 107.1s
+[2026-05-14 23:45:33] INFO baseline: BEST epoch 37 | TEST acc 69.55% | macro-F1 66.32%

@@ -1,0 +1,9 @@
+{
+  "deletion_auc": 0.19605059921741486,
+  "insertion_auc": 0.5232663154602051,
+  "aopc": 0.3064418137073517,
+  "pointing_game": 0.3489583333333333,
+  "faithfulness_corr": 0.14235331118106842,
+  "gini_sparsity": 0.8425155282020569,
+  "n_samples": 192
+}

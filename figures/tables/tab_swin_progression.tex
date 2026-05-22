@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\caption{Swin-Tiny S4 → S5 progression on classification and faithfulness metrics.}
+\label{tab:swinprog}
+\begin{tabular}{lrrrrrrr}
+\toprule
+variant & test acc & macro-F1 & deletion ↓ & insertion ↑ & AOPC ↑ & pointing-game ↑ & faith. corr ↑ \\
+\midrule
+baseline & 72.2800 & 70.3700 & 0.1890 & 0.5290 & 0.3210 & 0.4790 & 0.1500 \\
+XAI (S4) & 71.7200 & 70.9600 & 0.2230 & 0.5190 & 0.2800 & 1.0000 & 0.0780 \\
+XAI (S5/B1) & 73.4500 & 71.6400 & 0.2020 & 0.5110 & 0.2980 & 0.4520 & 0.0910 \\
+XAI (S5/B2) & 73.4500 & 70.9700 & 0.2000 & 0.5200 & 0.3090 & 0.5380 & 0.1320 \\
+XAI (S5/B3) & 72.4200 & 70.6800 & 0.1350 & 0.5030 & 0.3540 & 0.4870 & 0.3880 \\
+\bottomrule
+\end{tabular}
+\end{table}
